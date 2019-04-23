@@ -1,0 +1,16 @@
+Assignment: Complete the below functions of the class linkedQueueType. (Update linkedQueue.h and write test code to check if it works properly)
+
+template <class Type>
+const linkedQueueType<Type>& linkedQueueType<Type>::operator=
+(const linkedQueueType<Type>& otherQueue)
+{
+cout << "Write the definition of the function "
+<< "to overload the assignment operator." << endl;
+} //end assignment operator
+
+template <class Type>
+linkedQueueType<Type>::linkedQueueType(const linkedQueueType<Type>& otherQueue)
+{
+cout << "Write the definition of the copy constructor."
+<< endl;
+} //end copy constructor
